@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name:"
+        android:textSize="16sp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/etschoolname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SchoolName:"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email:"
+        android:textSize="16sp"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/etrollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rollno:"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:layout_margin="8dp"/>
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+        <RadioButton
+            android:id="@+id/rbtnMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="16sp"
+            />
+        <RadioButton
+            android:id="@+id/rbtnFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="16sp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnSubmitdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        />
+
+
+</LinearLayout>
