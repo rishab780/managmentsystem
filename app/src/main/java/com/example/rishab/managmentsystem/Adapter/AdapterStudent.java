@@ -69,8 +69,8 @@ public class AdapterStudent extends RecyclerView.Adapter<RecyclerView.ViewHolder
             rollnoTextView = (TextView) itemView.findViewById(R.id.tvrollno);
             nameTextView = (TextView) itemView.findViewById(R.id.tvname);
 
-            Log.e("debug",rollnoTextView.getText().toString());
-            Log.e("debug",nameTextView.getText().toString());
+
+
         }
     }
 
