@@ -65,23 +65,21 @@ public class CreateStudent extends AppCompatActivity {
     private boolean checkValidation() {
 
 
-
-        if(mname.isEmpty() || mschool.isEmpty() || mrollno.isEmpty())
-        {
-            if(isValidEmail(mEmail))
-            {
+        if (mname.isEmpty() || mschool.isEmpty() || mrollno.isEmpty()) {
+            return false;
+        } else {
+            if (isValidEmail(mEmail)) {
                 return true;
             }
+
             return false;
+
         }
-
-        return true;
-
     }
 
     private boolean isValidEmail(String Email)
     {
-        return Patterns.EMAIL_ADDRESS.matcher(Email).matches();
+        return android.util.Patterns.EMAIL_ADDRESS.matcher(Email).matches();
     }
 
     public void onRadioButtonClicked(View view) {

@@ -10,11 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Name:"
+        android:maxLines="1"
         android:textSize="16sp"
         android:layout_margin="8dp"/>
 
     <EditText
         android:id="@+id/etschoolname"
+        android:maxLines="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="SchoolName:"
@@ -24,12 +26,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email:"
+        android:maxLines="1"
         android:textSize="16sp"
         android:layout_margin="8dp"/>
     <EditText
         android:id="@+id/etrollno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:maxLines="1"
         android:hint="Rollno:"
         android:textSize="16sp"
         android:inputType="number"
