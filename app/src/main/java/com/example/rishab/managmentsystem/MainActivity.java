@@ -2,22 +2,17 @@ package com.example.rishab.managmentsystem;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.Switch;
-import android.widget.Toast;
-import android.widget.CompoundButton;
 
-import com.example.rishab.managmentsystem.Adapter.AdapterStudent;
-import com.example.rishab.managmentsystem.Model.Studentinfo;
+import com.example.rishab.managmentsystem.adapter.AdapterStudent;
+import com.example.rishab.managmentsystem.model.Studentinfo;
 
 import java.util.ArrayList;
 

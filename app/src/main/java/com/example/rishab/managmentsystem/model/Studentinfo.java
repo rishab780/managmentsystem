@@ -1,4 +1,4 @@
-package com.example.rishab.managmentsystem.Model;
+package com.example.rishab.managmentsystem.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 /**

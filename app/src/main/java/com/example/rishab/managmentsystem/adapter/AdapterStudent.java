@@ -1,4 +1,4 @@
-package com.example.rishab.managmentsystem.Adapter;
+package com.example.rishab.managmentsystem.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,14 +6,13 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.rishab.managmentsystem.CreateStudent;
-import com.example.rishab.managmentsystem.Model.Studentinfo;
+import com.example.rishab.managmentsystem.model.Studentinfo;
 import com.example.rishab.managmentsystem.R;
 
 import java.util.ArrayList;
